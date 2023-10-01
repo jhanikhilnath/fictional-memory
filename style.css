@@ -1,8 +1,40 @@
-.hello{
-	height: 120vh;
-	/* width: 600px; */
-	/* overflow: scroll; */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-.hidden{
-	display: none;
+
+body {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	background-color: #fa8bff;
+	background-image: linear-gradient(160deg, #fa8bff 0%, #2bd2ff 52%, #2bff88 90%);
+	font-family: 'Roboto', sans-serif;
+}
+
+div {
+	background-color: beige;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+	border-radius: 10px;
+	width: 40vw;
+}
+
+div > p {
+	font-size: 300%;
+	text-align: center;
+	font-weight: 100;
+}
+
+.key-pressed {
+	height: 20vh;
+	/* width: 500px; */
+	font-size: 500%;
+	text-align: center;
+	font-weight: 500;
 }
